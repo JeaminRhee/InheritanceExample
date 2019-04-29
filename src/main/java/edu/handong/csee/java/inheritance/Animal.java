@@ -1,6 +1,9 @@
 package edu.handong.csee.java.inheritance;
 
 public class Animal {
+	
+	String name = "Animal";
+	
     public static void testClassMethod() {
         System.out.println("The static method in Animal");
     }

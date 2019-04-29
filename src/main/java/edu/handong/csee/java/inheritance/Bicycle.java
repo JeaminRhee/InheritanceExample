@@ -10,6 +10,12 @@ public class Bicycle {
 		cadence = startCadence;
 		speed = startSpeed;
 	}
+	
+	public void printDescription(){
+	    System.out.println("\nBike is " + "in gear " + this.gear
+	        + " with a cadence of " + this.cadence +
+	        " and travelling at a speed of " + this.speed + ". ");
+	}
 
 	public void setCadence(int newValue) {
 		cadence = newValue;

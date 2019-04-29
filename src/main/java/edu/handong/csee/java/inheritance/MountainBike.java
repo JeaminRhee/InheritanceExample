@@ -2,20 +2,54 @@ package edu.handong.csee.java.inheritance;
 
 public class MountainBike extends Bicycle {
     
-    // the MountainBike subclass adds one field
-    public int seatHeight;
+	private String suspension;
 
-    // the MountainBike subclass has one constructor
-    public MountainBike(int startHeight,
-                        int startCadence,
-                        int startSpeed,
-                        int startGear) {
-        super(startCadence, startSpeed, startGear);
-        seatHeight = startHeight;
-    }   
-        
-    // the MountainBike subclass adds one method
-    public void setHeight(int newValue) {
-        seatHeight = newValue;
-    }   
-}
+    public MountainBike(
+               int startCadence,
+               int startSpeed,
+               int startGear,
+               String suspensionType){
+        super(startCadence,
+              startSpeed,
+              startGear);
+        this.setSuspension(suspensionType);
+    }
+
+    
+
+    @Override
+	public boolean equals(Object obj) {
+    	
+    	MountainBike other = (MountainBike) obj;
+    	
+    	if(this.speed != other.speed)
+    			return false;
+    	
+    	if(this.cadence != other.cadence)
+			return false;
+    	
+    	if(this.gear != other.gear)
+			return false;
+    	
+    	if(!this.suspension.equals(other.suspension))
+    		return false;
+    	
+		return true;
+	}
+
+
+	public String getSuspension(){
+        return this.suspension;
+      }
+
+      public void setSuspension(String suspensionType) {
+          this.suspension = suspensionType;
+      }
+
+      public void printDescription() {
+          super.printDescription();
+          System.out.println("The " + "MountainBike has a" +
+              getSuspension() + " suspension.");
+      }
+  } 
+
