@@ -18,12 +18,14 @@ public class Cat extends Animal {
         System.out.println(myCat.name); // hiding (not recommended)
         
         Animal myAnimal = myCat; // polymorphism
-        myAnimal.testClassMethod();
+        myAnimal.testClassMethod(); // hiding
         myAnimal.testInstanceMethod(); // overriding
         System.out.println(myAnimal.name); // hiding (not recommended)
         
         Animal myAnimal2 = new Dog(); // polymorphism
         myAnimal2.testClassMethod(); // hiding
+        Dog myDog = (Dog) myAnimal2;
+        myDog.testClassMethod();
         myAnimal2.testInstanceMethod(); // overriding
         
         

@@ -18,10 +18,12 @@ public class JC implements Husband, Professor, Son, Student{
 		
 		Student jcAsStudent = new JC();
 		jcAsStudent.learn();
+		
+		Husband alexAsHusband = new Alex();
 	}
 	
 	public void whoAmI() {
-		System.out.println("This is JC");
+		System.out.println("This is JC.");
 	}
 
 	@Override
@@ -36,8 +38,7 @@ public class JC implements Husband, Professor, Son, Student{
 
 	@Override
 	public void teach() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("I'm teaching.");
 	}
 
 	@Override
