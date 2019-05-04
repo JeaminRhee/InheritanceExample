@@ -4,7 +4,14 @@ public class Bicycle {
 	public int cadence;
 	public int gear;
 	public int speed;
-
+	private int color;
+	
+	public Bicycle() {
+		cadence = 1;
+		gear = 1;
+		speed =1;
+	}
+	
 	public Bicycle(int startCadence, int startSpeed, int startGear) {
 		gear = startGear;
 		cadence = startCadence;

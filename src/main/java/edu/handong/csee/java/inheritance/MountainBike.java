@@ -9,9 +9,7 @@ public class MountainBike extends Bicycle {
                int startSpeed,
                int startGear,
                String suspensionType){
-        super(startCadence,
-              startSpeed,
-              startGear);
+        
         this.setSuspension(suspensionType);
     }
 
