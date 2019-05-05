@@ -6,7 +6,6 @@ public class Dog extends Animal {
 	public void testInstanceMethod() {
 		// TODO Auto-generated method stub
 		//super.testInstanceMethod();
-		System.out.println("testInstamnceMethod in Dog");
+		System.out.println("The instance method in Dog");
 	}
-
 }

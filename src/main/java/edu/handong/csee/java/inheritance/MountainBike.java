@@ -14,7 +14,6 @@ public class MountainBike extends Bicycle {
     }
 
     
-
     @Override
 	public boolean equals(Object obj) {
     	
@@ -51,4 +50,3 @@ public class MountainBike extends Bicycle {
               getSuspension() + " suspension.");
       }
   } 
-

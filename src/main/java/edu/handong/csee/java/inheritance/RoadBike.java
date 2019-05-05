@@ -28,4 +28,3 @@ public class RoadBike extends Bicycle {
               " MM tires.");
       }
   }
-

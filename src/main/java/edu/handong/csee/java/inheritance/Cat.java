@@ -28,7 +28,6 @@ public class Cat extends Animal {
         myDog.testClassMethod();
         myAnimal2.testInstanceMethod(); // overriding
         
-        
     }
 }
 

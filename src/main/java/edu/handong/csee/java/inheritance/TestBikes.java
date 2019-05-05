@@ -11,6 +11,3 @@ public class TestBikes {
 	    bike03.printDescription();
 	  }
 	}
-
-
-

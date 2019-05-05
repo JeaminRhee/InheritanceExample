@@ -26,5 +26,4 @@ public class Rider {
 		myBike.speedUp(5);
 		System.out.println("Current speed of myBike:" + myBike.speed);		
 	}
-
 }
