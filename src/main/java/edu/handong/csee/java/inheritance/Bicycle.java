@@ -23,7 +23,7 @@ public class Bicycle {
 	        + " with a cadence of " + this.cadence +
 	        " and travelling at a speed of " + this.speed + ". ");
 	}
- 
+
 	public void setCadence(int newValue) {
 		cadence = newValue;
 	}
