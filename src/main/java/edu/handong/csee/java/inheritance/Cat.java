@@ -29,4 +29,4 @@ public class Cat extends Animal {
         myAnimal2.testInstanceMethod(); // overriding
         
     }
-} 
+}  

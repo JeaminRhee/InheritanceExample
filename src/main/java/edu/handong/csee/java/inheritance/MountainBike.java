@@ -49,4 +49,4 @@ public class MountainBike extends Bicycle {
           System.out.println("The " + "MountainBike has a" +
               getSuspension() + " suspension.");
       }
-  } 
+  }  

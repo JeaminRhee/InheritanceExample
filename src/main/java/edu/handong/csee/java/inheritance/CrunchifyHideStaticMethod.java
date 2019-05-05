@@ -3,7 +3,7 @@ package edu.handong.csee.java.inheritance;
 /**
  * @author Crunchify.com
  */
- 
+  
 public class CrunchifyHideStaticMethod {
 	public static void main(String args[]) {
 		Company cmp = new CrunchifyCompany();
