@@ -16,6 +16,7 @@ public class CrunchifyHideStaticMethod {
 		CrunchifyCompany cmp2 = new CrunchifyCompany();
 		cmp2.staticMethod();
 		cmp2.nonStaticMethod();
+		
 	}
 }
  
